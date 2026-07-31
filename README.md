@@ -10,8 +10,6 @@
 
 - 💻 Full Stack focado em **React, Next.js e Node.js**
 - 🤖 IA no dia a dia: Claude Code, ChatGPT, GitHub Copilot
-- 🦷 Antes disso, fui Cirurgião-Dentista por 9 anos
-- 📍 Recife, PE, Brasil
 
 <div align="center">
 
