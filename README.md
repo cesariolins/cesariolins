@@ -9,14 +9,8 @@
 </div>
 
 - 💻 Full Stack focado em **React, Next.js e Node.js**
-- 🤖 IA no dia a dia: Claude Code, ChatGPT, GitHub Copilot
+- 🤖 IA no dia a dia: Claude Code, ChatGPT, n8n, Agentes de IA
 
 <div align="center">
 
 <img src="https://skillicons.dev/icons?i=react,nextjs,js,ts,nodejs,postgres,supabase,git&theme=dark" />
-
-<br><br>
-
-<img height="150" src="https://github-stats-extended.vercel.app/api?username=cesariolins&show_icons=true&theme=tokyonight&hide_border=true" />
-
-</div>
