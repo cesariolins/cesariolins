@@ -1,10 +1,24 @@
-## Olá! Me chamo Cesario Lins! 
+<div align="center">
 
-Desenvolvedor Web 💻🌐
+<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=22&pause=1000&color=2EA3F7&center=true&vCenter=true&width=500&lines=Ol%C3%A1%2C+eu+sou+o+Cesario+%F0%9F%91%8B;Dev+Full+Stack+%7C+React+%C2%B7+Next.js+%C2%B7+Node.js;Ex-Dentista+%E2%9E%9C+Dev+%F0%9F%9A%80" />
 
-<div style="display: inline_block"><br>
-  <img align="center" alt="Rafa-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="Rafa-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="Rafa-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cesariolins/)
+[![Site](https://img.shields.io/badge/Site-2EA3F7?style=flat-square&logo=googlechrome&logoColor=white)](https://cesariolins.com.br/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:cesario5c@hotmail.com)
+
+</div>
+
+- 💻 Full Stack focado em **React, Next.js e Node.js**
+- 🤖 IA no dia a dia: Claude Code, ChatGPT, GitHub Copilot
+- 🦷 Antes disso, fui Cirurgião-Dentista por 9 anos
+- 📍 Recife, PE, Brasil
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,js,ts,nodejs,postgres,supabase,git&theme=dark" />
+
+<br><br>
+
+<img height="150" src="https://github-readme-stats.vercel.app/api?username=cesariolins&show_icons=true&theme=tokyonight&hide_border=true" />
+
 </div>
