@@ -1,38 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="1000px" height="570px" font-size="16px">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="1000px" height="610px" font-size="16px">
 <style>
 @font-face { src: local('Consolas'), local('Consolas Bold'); font-family: 'ConsolasFallback'; font-display: swap; size-adjust: 109%; }
 .key {fill: #953800;} .value {fill: #0a3069;} .cc {fill: #c2cfde;}
 text, tspan {white-space: pre;}
 </style>
-<rect width="1000px" height="570px" fill="#f6f8fa" rx="15"/>
+<rect width="1000px" height="610px" fill="#f6f8fa" rx="15"/>
 <text fill="#24292f">
-<tspan x="15" y="30">                 fLf</tspan>
-<tspan x="15" y="50">            tG08C0080LfLLL</tspan>
-<tspan x="15" y="70">          C@8@808G8@88@8G8@L</tspan>
-<tspan x="15" y="90">         L0Cti::,,:1tfL088@@8Gf</tspan>
-<tspan x="15" y="110">        fL1.....,,,:,,,;i1L@88@L</tspan>
-<tspan x="15" y="130">       tC,..,:;;;;;;;::::,:1G@@8G</tspan>
-<tspan x="15" y="150">       f1...,:;;;:,,,;ii;:,,1@@@L</tspan>
-<tspan x="15" y="170">        ii1t1;,:;i1tfttt1i:if0@@8</tspan>
-<tspan x="15" y="190">        .i1fLf1,ifGLttt111;,f@@@C</tspan>
-<tspan x="15" y="210">       i.;1ttt;:ittLfftfti;,t@@@f</tspan>
-<tspan x="15" y="230">       ,.,:;;..,i1ti;:,,:;;:LCf1t1</tspan>
-<tspan x="15" y="250">       :.,ii:;.:t11t1,.,:;;;Gifi1t</tspan>
-<tspan x="15" y="270">       ;.itfGGLtG@GLff1,:::f0i1t1</tspan>
-<tspan x="15" y="290">       1.iCf1i1i11tLCLL.,;t0L,:i</tspan>
-<tspan x="15" y="310">        1:L,;:iiii1i;Li,tfG8f</tspan>
-<tspan x="15" y="330">        tLCfi1ttt1i1fGLfC801</tspan>
-<tspan x="15" y="350">         fLLLfffLfftC0080fii</tspan>
-<tspan x="15" y="370">           tLftttLC008Lti;;i</tspan>
-<tspan x="15" y="390">            .1ttfffftii;i;;:t@@@</tspan>
-<tspan x="15" y="410">            ......,:;ii;;;,,;L@@@</tspan>
-<tspan x="15" y="430">           @1....:ii;;;;:.,1G@@8@@L</tspan>
-<tspan x="15" y="450">          @@C...,:;;,::::1C@@8000880</tspan>
-<tspan x="15" y="470">    0@@0 G@@@f..,i:,,;;1C@@800GGG0G88@@C</tspan>
-<tspan x="15" y="490"> @@8G0CLC@8@@0f.,,:..tC@80GG0GGGGCG00G00</tspan>
-<tspan x="15" y="510">000LLCG0G0CC8Ct..,1L88008GGGGCCCCGGCCCCC</tspan>
-<tspan x="15" y="530">LCGLLLLCGCCLC@CtL88@@80000GGGCCCC0GGCCCC</tspan>
+<tspan x="15" y="150">┌──────────────────────────────────────┐</tspan>
+<tspan x="15" y="170">│ ● ● ●          ~/cesariolins         │</tspan>
+<tspan x="15" y="190">├──────────────────────────────────────┤</tspan>
+<tspan x="15" y="210">│ $ whoami                             │</tspan>
+<tspan x="15" y="230">│ cesario lins                         │</tspan>
+<tspan x="15" y="250">│                                      │</tspan>
+<tspan x="15" y="270">│ $ cat career.txt                     │</tspan>
+<tspan x="15" y="290">│ dentist ──► developer                │</tspan>
+<tspan x="15" y="310">│                                      │</tspan>
+<tspan x="15" y="330">│ $ ls stack/                          │</tspan>
+<tspan x="15" y="350">│ react  next  node  postgres  ai      │</tspan>
+<tspan x="15" y="370">│                                      │</tspan>
+<tspan x="15" y="390">│ $ npm run dev                        │</tspan>
+<tspan x="15" y="410">│ ▲ Ready on http://localhost:3000     │</tspan>
+<tspan x="15" y="430">│                                      │</tspan>
+<tspan x="15" y="450">│ $ █                                  │</tspan>
+<tspan x="15" y="470">└──────────────────────────────────────┘</tspan>
 </text>
 <text fill="#24292f">
 <tspan x="410" y="30">cesario@lins <tspan class="cc">-———————————————————————————————————————————-—-</tspan></tspan>
@@ -46,7 +37,7 @@ text, tspan {white-space: pre;}
 <tspan x="410" y="190"><tspan class="cc">. </tspan><tspan class="key">Languages.Computer</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value">HTML, CSS, SCSS, JSON</tspan></tspan>
 <tspan x="410" y="210"><tspan class="cc">. </tspan><tspan class="key">Languages.Real</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">Portuguese, English</tspan></tspan>
 <tspan x="410" y="230"><tspan class="cc">.</tspan></tspan>
-<tspan x="410" y="250"><tspan class="cc">. </tspan><tspan class="key">Stack.Frontend</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value">React, Next.js, Bootstrap</tspan></tspan>
+<tspan x="410" y="250"><tspan class="cc">. </tspan><tspan class="key">Stack.Frontend</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">React, Next.js, Tailwind</tspan></tspan>
 <tspan x="410" y="270"><tspan class="cc">. </tspan><tspan class="key">Stack.Backend</tspan>:<tspan class="cc"> .......... </tspan><tspan class="value">Node.js, Express, REST, Webhooks</tspan></tspan>
 <tspan x="410" y="290"><tspan class="cc">. </tspan><tspan class="key">Stack.Database</tspan>:<tspan class="cc"> ..... </tspan><tspan class="value">PostgreSQL, MySQL, Supabase, MongoDB</tspan></tspan>
 <tspan x="410" y="310"><tspan class="cc">. </tspan><tspan class="key">Stack.AI</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">Claude Code, Copilot, MCP, AI Agents</tspan></tspan>
@@ -59,8 +50,10 @@ text, tspan {white-space: pre;}
 <tspan x="410" y="450"><tspan class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> .................................... </tspan><tspan class="value">cesariolins</tspan></tspan>
 <tspan x="410" y="470"><tspan class="cc">. </tspan><tspan class="key">Website</tspan>:<tspan class="cc"> .............................. </tspan><tspan class="value">cesariolins.com.br</tspan></tspan>
 <tspan x="410" y="490"></tspan>
-<tspan x="410" y="510">- Impact <tspan class="cc">-———————————————————————————————————————————————-—-</tspan></tspan>
-<tspan x="410" y="530"><tspan class="cc">. </tspan><tspan class="key">Registrations</tspan>:<tspan class="cc"> ..... </tspan><tspan class="value">3,500+</tspan><tspan class="cc"> | </tspan><tspan class="cc"></tspan><tspan class="key">Students</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">1,500+</tspan></tspan>
-<tspan x="410" y="550"><tspan class="cc">. </tspan><tspan class="key">Courses</tspan>:<tspan class="cc"> .............. </tspan><tspan class="value">50+</tspan><tspan class="cc"> | </tspan><tspan class="cc"></tspan><tspan class="key">No-shows</tspan>:<tspan class="cc"> ........ </tspan><tspan class="value">50% → 30%</tspan></tspan>
+<tspan x="410" y="510">- Projects <tspan class="cc">-—————————————————————————————————————————————-—-</tspan></tspan>
+<tspan x="410" y="530"><tspan class="cc">. </tspan><tspan class="key">Event.Platform</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">3,500+ sign-ups handled</tspan></tspan>
+<tspan x="410" y="550"><tspan class="cc">. </tspan><tspan class="key">Academic.System</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">used by 1,500+ students</tspan></tspan>
+<tspan x="410" y="570"><tspan class="cc">. </tspan><tspan class="key">AI.Grading</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">feedback: days → minutes</tspan></tspan>
+<tspan x="410" y="590"><tspan class="cc">. </tspan><tspan class="key">WhatsApp.Automation</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">no-shows 50% → 30%</tspan></tspan>
 </text>
 </svg>

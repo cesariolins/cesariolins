@@ -7,32 +7,23 @@ BIRTH = date(1993, 10, 26)
 WIDTH = 60  # characters in the info column
 
 ART = r"""
-                 fLf
-            tG08C0080LfLLL
-          C@8@808G8@88@8G8@L
-         L0Cti::,,:1tfL088@@8Gf
-        fL1.....,,,:,,,;i1L@88@L
-       tC,..,:;;;;;;;::::,:1G@@8G
-       f1...,:;;;:,,,;ii;:,,1@@@L
-        ii1t1;,:;i1tfttt1i:if0@@8
-        .i1fLf1,ifGLttt111;,f@@@C
-       i.;1ttt;:ittLfftfti;,t@@@f
-       ,.,:;;..,i1ti;:,,:;;:LCf1t1
-       :.,ii:;.:t11t1,.,:;;;Gifi1t
-       ;.itfGGLtG@GLff1,:::f0i1t1
-       1.iCf1i1i11tLCLL.,;t0L,:i
-        1:L,;:iiii1i;Li,tfG8f
-        tLCfi1ttt1i1fGLfC801
-         fLLLfffLfftC0080fii
-           tLftttLC008Lti;;i
-            .1ttfffftii;i;;:t@@@
-            ......,:;ii;;;,,;L@@@
-           @1....:ii;;;;:.,1G@@8@@L
-          @@C...,:;;,::::1C@@8000880
-    0@@0 G@@@f..,i:,,;;1C@@800GGG0G88@@C
- @@8G0CLC@8@@0f.,,:..tC@80GG0GGGGCG00G00
-000LLCG0G0CC8Ct..,1L88008GGGGCCCCGGCCCCC
-LCGLLLLCGCCLC@CtL88@@80000GGGCCCC0GGCCCC""".split("\n")[1:]
+┌──────────────────────────────────────┐
+│ ● ● ●          ~/cesariolins         │
+├──────────────────────────────────────┤
+│ $ whoami                             │
+│ cesario lins                         │
+│                                      │
+│ $ cat career.txt                     │
+│ dentist ──► developer                │
+│                                      │
+│ $ ls stack/                          │
+│ react  next  node  postgres  ai      │
+│                                      │
+│ $ npm run dev                        │
+│ ▲ Ready on http://localhost:3000     │
+│                                      │
+│ $ █                                  │
+└──────────────────────────────────────┘""".split("\n")[1:]
 
 THEMES = {
     "dark_mode.svg": dict(bg="#161b22", fg="#c9d1d9", key="#ffa657", value="#a5d6ff", cc="#616e7f"),
@@ -65,11 +56,6 @@ def kv(key, value, width=WIDTH, lead=". "):
     return span(lead, "cc") + span(key, "key") + ":" + span(f" {dots} ", "cc") + span(value, "value")
 
 
-def pair(k1, v1, k2, v2):
-    left = WIDTH // 2 - 1
-    return kv(k1, v1, left) + span(" | ", "cc") + kv(k2, v2, WIDTH - left - 3, lead="")
-
-
 def title(text, lead="- "):
     return escape(f"{lead}{text} ") + span("-" + "—" * (WIDTH - len(lead) - len(text) - 5) + "-—-", "cc")
 
@@ -87,7 +73,7 @@ INFO = [
     kv("Languages.Computer", "HTML, CSS, SCSS, JSON"),
     kv("Languages.Real", "Portuguese, English"),
     BLANK,
-    kv("Stack.Frontend", "React, Next.js, Bootstrap"),
+    kv("Stack.Frontend", "React, Next.js, Tailwind"),
     kv("Stack.Backend", "Node.js, Express, REST, Webhooks"),
     kv("Stack.Database", "PostgreSQL, MySQL, Supabase, MongoDB"),
     kv("Stack.AI", "Claude Code, Copilot, MCP, AI Agents"),
@@ -100,14 +86,17 @@ INFO = [
     kv("LinkedIn", "cesariolins"),
     kv("Website", "cesariolins.com.br"),
     "",
-    title("Impact"),
-    pair("Registrations", "3,500+", "Students", "1,500+"),
-    pair("Courses", "50+", "No-shows", "50% → 30%"),
+    title("Projects"),
+    kv("Event.Platform", "3,500+ sign-ups handled"),
+    kv("Academic.System", "used by 1,500+ students"),
+    kv("AI.Grading", "feedback: days → minutes"),
+    kv("WhatsApp.Automation", "no-shows 50% → 30%"),
 ]
 
 W, H = 1000, 30 + 20 * max(len(ART), len(INFO))
+top = max(0, (len(INFO) - len(ART)) // 2)  # centers the art next to the info column
 for name, c in THEMES.items():
-    art = "\n".join(f'<tspan x="15" y="{30 + 20 * i}">{escape(line)}</tspan>' for i, line in enumerate(ART))
+    art = "\n".join(f'<tspan x="15" y="{30 + 20 * (top + i)}">{escape(line)}</tspan>' for i, line in enumerate(ART))
     info = "\n".join(f'<tspan x="410" y="{30 + 20 * i}">{line}</tspan>' for i, line in enumerate(INFO))
     with open(name, "w", encoding="utf-8") as f:
         f.write(f"""<?xml version="1.0" encoding="UTF-8"?>
